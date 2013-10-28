@@ -43,8 +43,8 @@ article {
         url(coffeestain.png), 
         url(eggshell.jpg);
     background-position: 
-        2% 2%, 
-        96% 3%, 
+        0.5em 2em, 
+        98% 2em, 
         95% 96%, 
         3% 97%, 
         -3% 97%;
@@ -118,7 +118,7 @@ header h1 {
 .nav:nth-child(1) {
 	-webkit-transform: rotate(1deg);
 /*    -moz-transform: rotate(1deg);*/
-    margin-left: 200px;
+    margin-left: 130px;
 }
 
 .nav:nth-child(2) {
@@ -174,5 +174,5 @@ footer p {
 }
 
 .space-after {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
