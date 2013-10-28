@@ -1,0 +1,86 @@
+section + footer, 
+header {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+pre {
+	margin: 5ex;
+}
+
+blockquote {
+	width: 300px;
+	margin: 5ex;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 625px;
+    float: left;
+}
+
+.table {
+	margin-left: 4ex;
+}
+
+@media screen and (max-device-width: 480px) {
+	
+	article {
+		margin: 10px;
+		max-width: none;
+		padding: 10px;
+		font-size: 20px;
+		width: 100%;
+	}
+	
+	article img {
+		width: 80%;
+	}
+	
+	.table {
+		margin-left: 0;
+	}
+	
+}
+
+section {
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 3ex;
+}
+
+section article {
+	position: relative;
+	top: -15px;
+	z-index: 0;
+}
+
+section#notes {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2ex;
+	width: 870px;
+	float: left;
+}
+
+nav div:nth-child(3) {
+	-webkit-transform: rotate(2deg);
+	-moz-transform: rotate(2deg);
+	z-index: -1;
+}
+
+nav div:nth-child(4) {
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	z-index: -1;
+}
+
+nav div.active {
+	z-index: 1;
+}
+
+.more {
+	text-align: right;
+	margin-top: 1.5ex;
+}

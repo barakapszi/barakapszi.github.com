@@ -1,0 +1,39 @@
+* {
+	font-family: Courier, "Courier New", monospace;
+}
+
+article h1, h2 {
+    clear: left;
+	white-space: pre-wrap;
+	overflow: hidden;
+}
+
+article h1:after	{
+	content: "\A============\A\A";
+}
+
+h2:after {
+	content: "\A----------------------------\A\A";
+}
+
+h2:before {
+	content: "\A\A";
+}
+
+article footer:before {
+	white-space: pre-wrap;
+	content: "\A***\A\A";
+}
+
+ul {
+	list-style-type: none;
+}
+
+li:before {
+	content: '* ';
+}
+
+strong {
+	text-decoration: underline;
+	font-weight: normal; 
+}
