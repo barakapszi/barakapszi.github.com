@@ -23,6 +23,8 @@ footer {
 	background: url(cardboard.jpg);
 	box-shadow: 0px 4px 6px 4px #333;
     margin-top: 200px;
+    text-align: center;
+    width: 640px;
 }
 
 article {
@@ -35,85 +37,85 @@ article {
 	background: url(eggshell.jpg);
 	padding: 100px;
 	box-shadow: 0px 4px 4px 0px #333;
-	background-image: 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
+	background-image:
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
       url(eggshell.jpg);
-  background-position: 
-      0.5em 2em, 
-      98% 2em, 
-      95% 96%, 
+  background-position:
+      0.5em 2em,
+      98% 2em,
+      95% 96%,
       3% 97%;
-  background-repeat: 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
+  background-repeat:
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
       repeat;
-  background-size: 
-      48px 48px, 
-      48px 48px, 
-      48px 48px, 
+  background-size:
+      48px 48px,
+      48px 48px,
+      48px 48px,
       48px 48px;
 }
 
 article.index {
-	background-image: 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
-      url(coffeestain.png), 
+	background-image:
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
+      url(coffeestain.png),
       url(eggshell.jpg);
-  background-position: 
-      0.5em 2em, 
-      98% 2em, 
-      95% 96%, 
-      3% 97%, 
+  background-position:
+      0.5em 2em,
+      98% 2em,
+      95% 96%,
+      3% 97%,
       106% 38%;
-  background-repeat: 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
+  background-repeat:
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
       repeat;
-  background-size: 
-      48px 48px, 
-      48px 48px, 
-      48px 48px, 
-      48px 48px, 
+  background-size:
+      48px 48px,
+      48px 48px,
+      48px 48px,
+      48px 48px,
       178px 157px;
 }
 
 article.online {
-	background-image: 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
-      url(thumbtack_red.png), 
-      url(thumbtack_blue.png), 
-      url(coffeestain.png), 
+	background-image:
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
+      url(thumbtack_red.png),
+      url(thumbtack_blue.png),
+      url(coffeestain.png),
       url(eggshell.jpg);
-  background-position: 
-      0.5em 2em, 
-      98% 2em, 
-      95% 96%, 
-      3% 97%, 
+  background-position:
+      0.5em 2em,
+      98% 2em,
+      95% 96%,
+      3% 97%,
       90% 75%;
-  background-repeat: 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
-      no-repeat, 
+  background-repeat:
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
+      no-repeat,
       repeat;
-  background-size: 
-      48px 48px, 
-      48px 48px, 
-      48px 48px, 
-      48px 48px, 
+  background-size:
+      48px 48px,
+      48px 48px,
+      48px 48px,
+      48px 48px,
       178px 157px;
 }
 
